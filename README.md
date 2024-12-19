@@ -28,5 +28,5 @@ Steps:
 ### How to combine multiple mp4 files into a single mp4 file
 
 Steps:
-1. Write the name of each mp4 file in a new line in a file `mp4_file_list.txt`.
+1. Write the name of each mp4 file in a new line of a file `mp4_file_list.txt`.
 2. Run `ffmpeg -f concat -safe 0 -i mp4_file_list.txt -c copy full_video.mp4` in the parent directory of `mp4_file_list.txt`.
